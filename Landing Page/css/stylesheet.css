@@ -1,0 +1,55 @@
+body {
+    background-image: url(dark_embroidery.png);
+    color: #DDDDDD;
+}
+
+
+#summaryPar {
+    text-align: center;
+    margin-top: 50%;
+    margin-bottom: 100px;
+    font-size: 5em;
+    font-family: Precious;
+    color: #a258d3;
+}
+
+.centerMe {
+    text-align: center;
+    font-size: 2em;
+    color: #4b8ee5;
+}
+
+#wholePage {
+    height: 100%;
+}
+
+#pillarsDiv {
+    font-family: uberli;
+}
+
+
+@font-face {
+    font-family: Uberlin;
+    src: url('Uberlin.ttf');
+}
+
+@font-face {
+    font-family: Precious;
+    src: url('Precious.ttf');
+}
+
+.pillarPar {
+    font-size: 1.3em;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.footer {
+    position: relative;
+    width: 50%;
+    left: 25%;
+}
+
+
