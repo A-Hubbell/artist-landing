@@ -7,7 +7,7 @@ body {
 #summaryPar {
     text-align: center;
     margin-top: 50%;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
     font-size: 5em;
     font-family: Precious;
     color: #a258d3;
@@ -25,6 +25,8 @@ body {
 
 #pillarsDiv {
     font-family: uberli;
+    background-color: black;
+    border-radius: 15px;
 }
 
 
@@ -53,3 +55,14 @@ body {
 }
 
 
+
+#userEmail {
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 100px;
+    background-color: #303030;
+    border-width: 1px;
+    border-color: #a258d3;
+    height: 30px;
+    border-radius: 10px;
+}
