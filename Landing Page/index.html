@@ -15,9 +15,10 @@
 
     <body>
         <div class="container" id="wholePage">
-            <div class="row">
+            <div class="row" id="summaryAndInputDiv">
                 <div id="summaryPar" class="wow bounceInDown">Magik</div>
                 <input id="userEmail" placeholder="Enter your email to stay in the loop!">
+                <button id="emailSubmit">Let the Magik begin...</button>
             </div>
             
             
@@ -29,11 +30,26 @@
 
         </div>
         
-        
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/wow.min.js"></script>
         <script>
             new WOW().init();
+        </script>
+        <script type="text/javascript" src="js/jquery.jrumble.1.3.min.js"></script>
+        <script type="text/javascript">
+            $('#emailSubmit').jrumble({
+                speed:75,
+                x:5,
+                y:5
+            });
+            
+            setInterval(function() {
+                $('#emailSubmit').trigger('startRumble');
+                setTimeout(function(){
+                    $('#emailSubmit').trigger('stopRumble');
+                },700);
+            }, 4000);
         </script>
     </body>
 

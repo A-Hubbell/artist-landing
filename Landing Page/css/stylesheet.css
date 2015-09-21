@@ -59,10 +59,23 @@ body {
 #userEmail {
     width: 40%;
     margin-left: 30%;
-    margin-bottom: 100px;
     background-color: #303030;
     border-width: 1px;
     border-color: #a258d3;
     height: 30px;
     border-radius: 10px;
+}
+
+#emailSubmit {
+    background-color: #303030;
+    border-width: 1px;
+    border-color: #a258d3;
+    height: 30px;
+    border-radius: 10px;
+    color: #a258d3;
+    margin-left: 25px;
+}
+
+#summaryAndInputDiv {
+    margin-bottom: 100px;
 }
