@@ -6,7 +6,7 @@ body {
 
 #summaryPar {
     text-align: center;
-    margin-top: 50%;
+    margin-top: 20%;
     margin-bottom: 10px;
     font-size: 5em;
     font-family: Precious;
@@ -17,6 +17,7 @@ body {
     text-align: center;
     font-size: 2em;
     color: #4b8ee5;
+    font-family: Shihan;
 }
 
 #wholePage {
@@ -27,6 +28,7 @@ body {
     font-family: uberli;
     background-color: black;
     border-radius: 15px;
+    margin-bottom: 20%;
 }
 
 
@@ -39,6 +41,13 @@ body {
     font-family: Precious;
     src: url('Precious.ttf');
 }
+
+@font-face {
+    font-family: Shihan;
+    src: url('Shihan.otf');
+}
+
+
 
 .pillarPar {
     font-size: 1.3em;
