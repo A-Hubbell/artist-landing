@@ -3,10 +3,9 @@ body {
     color: #DDDDDD;
 }
 
-
 #summaryPar {
     text-align: center;
-    margin-top: 20%;
+    margin-top: 30%;
     margin-bottom: 10px;
     font-size: 5em;
     font-family: Precious;
@@ -16,7 +15,7 @@ body {
 .centerMe {
     text-align: center;
     font-size: 2em;
-    color: #4b8ee5;
+    color: #FFD700;
     font-family: Shihan;
 }
 
@@ -31,10 +30,9 @@ body {
     margin-bottom: 20%;
 }
 
-
 @font-face {
-    font-family: Uberlin;
-    src: url('Uberlin.ttf');
+    font-family: Didactic;
+    src: url('Didactic-Regular.otf');
 }
 
 @font-face {
@@ -47,10 +45,9 @@ body {
     src: url('Shihan.otf');
 }
 
-
-
 .pillarPar {
     font-size: 1.3em;
+    font-family: Didactic;
 }
 
 .italic {
@@ -63,8 +60,6 @@ body {
     left: 25%;
 }
 
-
-
 #userEmail {
     width: 40%;
     margin-left: 30%;
@@ -76,15 +71,32 @@ body {
 }
 
 #emailSubmit {
+    display: block;
     background-color: #303030;
     border-width: 1px;
     border-color: #a258d3;
     height: 30px;
     border-radius: 10px;
     color: #a258d3;
-    margin-left: 25px;
+    width: 12%;
+    margin-left: 44%;
+    margin-top: 25px;
 }
 
+@media (max-width: 990px) {
+    
+    #emailSubmit {
+        display: block;
+        width: 30%;
+        margin-left: 35%;
+    }
+    
+    #userEmail {
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+    
 #summaryAndInputDiv {
     margin-bottom: 100px;
 }
