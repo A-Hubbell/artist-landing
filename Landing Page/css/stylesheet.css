@@ -5,11 +5,11 @@ body {
 
 #summaryPar {
     text-align: center;
-    margin-top: 30%;
+    margin-top: 10%;
     margin-bottom: 10px;
     font-size: 5em;
     font-family: Precious;
-    color: #a258d3;
+    color: #009900;
 }
 
 .centerMe {
@@ -17,6 +17,7 @@ body {
     font-size: 2em;
     color: #FFD700;
     font-family: Shihan;
+    letter-spacing: 0.06em;
 }
 
 #wholePage {
@@ -27,7 +28,7 @@ body {
     font-family: uberli;
     background-color: black;
     border-radius: 15px;
-    margin-bottom: 20%;
+    margin-bottom: 50px;
 }
 
 @font-face {
@@ -63,24 +64,28 @@ body {
 #userEmail {
     width: 40%;
     margin-left: 30%;
+    border-color: #009900;
     background-color: #303030;
-    border-width: 1px;
-    border-color: #a258d3;
-    height: 30px;
-    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding-left: 5px;
 }
 
 #emailSubmit {
     display: block;
     background-color: #303030;
-    border-width: 1px;
-    border-color: #a258d3;
+    border-style: solid;
+    border-color: #009900;
     height: 30px;
-    border-radius: 10px;
-    color: #a258d3;
-    width: 12%;
-    margin-left: 44%;
+    border-radius: 5px;
+    border-width: 1px;
+    color: #009900;
+    width: 16%;
+    margin-left: 42%;
     margin-top: 25px;
+    height: 35px;
+    padding-bottom: 10px;
 }
 
 @media (max-width: 990px) {
@@ -99,4 +104,8 @@ body {
     
 #summaryAndInputDiv {
     margin-bottom: 100px;
+}
+
+.magikImg {
+    margin-top: 15px;
 }
