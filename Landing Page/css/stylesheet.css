@@ -5,11 +5,13 @@ body {
 
 #summaryPar {
     text-align: center;
-    margin-top: 10%;
-    margin-bottom: 10px;
-    font-size: 5em;
-    font-family: Precious;
+    margin-top: -33%;
+    margin-bottom: 20%;
+    font-size: 7em;
+    font-family: Gagalin;
     color: #009900;
+    z-index: 2;
+    margin-right: 0px;
 }
 
 .centerMe {
@@ -17,7 +19,7 @@ body {
     font-size: 2em;
     color: #FFD700;
     font-family: Shihan;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.08em;
 }
 
 #wholePage {
@@ -46,6 +48,26 @@ body {
     src: url('Shihan.otf');
 }
 
+@font-face {
+    font-family: Gagalin;
+    src: url('gagalin.ttf');
+}
+
+@font-face {
+    font-family: Graffiti;
+    src: url('GraffitiShadow.otf');
+}
+
+@font-face {
+    font-family: Moriarty;
+    src: url('Slash.ttf');
+}
+
+@font-face {
+    font-family: CutePunk;
+    src: url('Cutepunk_Regular.otf');
+}
+
 .pillarPar {
     font-size: 1.3em;
     font-family: Didactic;
@@ -70,6 +92,7 @@ body {
     border-width: 2px;
     border-radius: 5px;
     padding-left: 5px;
+    color: #DDDDDD;
 }
 
 #emailSubmit {
@@ -100,12 +123,29 @@ body {
         width: 60%;
         margin-left: 20%;
     }
+    
+    #summaryPar {
+        font-size: 3em;
+        margin-top: -38%;
+    }
 }
+
     
 #summaryAndInputDiv {
     margin-bottom: 100px;
 }
 
 .magikImg {
-    margin-top: 15px;
+    margin-top: 35px;
+}
+
+#magicLogoImg {
+    margin-bottom: 50px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+#logoDiv {
+    margin-top: 10%;
+    margin-left: 0px;
 }
